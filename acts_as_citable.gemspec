@@ -7,11 +7,10 @@ require "acts_as_citable/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_citable"
   s.version     = ActsAsCitable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActsAsCitable."
-  s.description = "TODO: Description of ActsAsCitable."
+  s.authors     = ["hab278"]
+  s.email       = ["hab278@nyu.edu"]
+  s.summary     = "Acts As gem for allowing models to be used as citable objects."
+  s.description = "Uses Citero to translate a model from one format to another."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
