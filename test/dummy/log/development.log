@@ -1,0 +1,68 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_migrations")
+  [1m[36m (14.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT name, sql FROM sqlite_master WHERE tbl_name = "schema_migrations" AND type = 'index'
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_info")
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecords (20130221210429)
+  [1m[35m (1.0ms)[0m  CREATE TABLE "records" ("id" integer primary key autoincrement not null, "data" varchar(255), "format" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130221210429')[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35m (0.0ms)[0m  SELECT name, sql FROM sqlite_master WHERE tbl_name = "records" AND type = 'index'
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecords (20130221210429)
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35m (0.0ms)[0m  SELECT name, sql FROM sqlite_master WHERE tbl_name = "records" AND type = 'index'
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("records")
+  [1m[35m (2.0ms)[0m  CREATE TABLE "records" ("id" integer primary key autoincrement not null, "data" varchar(255), "format" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_migrations")
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT name, sql FROM sqlite_master WHERE tbl_name = "schema_migrations" AND type = 'index'
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_info")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130221210429')
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecords (20130221210429)
+Migrating to CreateRecordChangedFields (20130221214225)
+  [1m[35m (0.0ms)[0m  CREATE TABLE "record_changed_fields" ("id" integer primary key autoincrement not null, "data" varchar(255), "from_format" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130221214225')[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35m (0.0ms)[0m  SELECT name, sql FROM sqlite_master WHERE tbl_name = "record_changed_fields" AND type = 'index'
+  [1m[36m (0.0ms)[0m  [1mSELECT name, sql FROM sqlite_master WHERE tbl_name = "records" AND type = 'index'[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("record_changed_fields")
+  [1m[35m (1.0ms)[0m  CREATE TABLE "record_changed_fields" ("id" integer primary key autoincrement not null, "data" varchar(255), "from_format" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("records")
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "records" ("id" integer primary key autoincrement not null, "data" varchar(255), "format" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_migrations")
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mSELECT name, sql FROM sqlite_master WHERE tbl_name = "schema_migrations" AND type = 'index'[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("schema_info")
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130221214225')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130221210429')

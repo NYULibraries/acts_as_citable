@@ -1,0 +1,211 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("records")
+Connecting to database specified by database.yml
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("records")
+Connecting to database specified by database.yml
+ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("records")
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-21 21:30:13.999000', 'data', 'from_format', '2013-02-21 21:30:13.999000')
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-21 23:29:55.406000', NULL, NULL, '2013-02-21 23:29:55.406000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:23:50.826000', NULL, NULL, '2013-02-25 16:23:50.826000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:26:23.179000', NULL, NULL, '2013-02-25 16:26:23.179000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:28:03.975000', NULL, NULL, '2013-02-25 16:28:03.975000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:29:36.281000', NULL, NULL, '2013-02-25 16:29:36.281000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:30:08.340000', NULL, NULL, '2013-02-25 16:30:08.340000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:40:10.213000', NULL, NULL, '2013-02-25 16:40:10.213000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:40:39.129000', NULL, NULL, '2013-02-25 16:40:39.129000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:50:12.275000', 'data', 'from_format', '2013-02-25 16:50:12.275000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:51:07.834000', 'itemType: book', 'csf', '2013-02-25 16:51:07.834000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:52:53.063000', 'itemType: book', 'csf', '2013-02-25 16:52:53.063000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:53:57.707000', 'itemType: book', 'csf', '2013-02-25 16:53:57.707000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:54:31.868000', 'itemType: book', 'csf', '2013-02-25 16:54:31.868000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:55:39.870000', 'itemType: book', 'csf', '2013-02-25 16:55:39.870000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:56:20.879000', 'itemType: book', 'csf', '2013-02-25 16:56:20.879000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:56:43.855000', 'itemType: book', 'csf', '2013-02-25 16:56:43.855000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:57:44.248000', 'itemType: book', 'csf', '2013-02-25 16:57:44.248000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 16:59:48.401000', 'itemType: book', 'csf', '2013-02-25 16:59:48.401000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:00:18.277000', 'itemType: book', 'csf', '2013-02-25 17:00:18.277000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:02:29.620000', 'itemType: book', 'csf', '2013-02-25 17:02:29.620000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:14:37.854000', 'itemType: book', 'csf', '2013-02-25 17:14:37.854000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:46:15.256000', 'data', 'from_format', '2013-02-25 17:46:15.256000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "records" WHERE "records"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:46:15.286000', 'itemType: book', 'csf', '2013-02-25 17:46:15.286000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:46:15.300000', 'itemType: book', 'csf', '2013-02-25 17:46:15.300000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:52:04.173000', 'itemType: book', 'csf', '2013-02-25 17:52:04.173000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:52:04.261000', 'data', 'from_format', '2013-02-25 17:52:04.261000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:52:04.280000', 'itemType: book', 'csf', '2013-02-25 17:52:04.280000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:52:04.296000', 'itemType: book', 'csf', '2013-02-25 17:52:04.296000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:18.185000', 'itemType: book', 'csf', '2013-02-25 17:53:18.185000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:18.208000', 'data', 'from_format', '2013-02-25 17:53:18.208000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:18.229000', 'itemType: book', 'csf', '2013-02-25 17:53:18.229000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:18.244000', 'itemType: book', 'csf', '2013-02-25 17:53:18.244000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:43.081000', 'itemType: book', 'csf', '2013-02-25 17:53:43.081000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:43.145000', 'data', 'from_format', '2013-02-25 17:53:43.145000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:43.165000', 'itemType: book', 'csf', '2013-02-25 17:53:43.165000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:53:43.179000', 'itemType: book', 'csf', '2013-02-25 17:53:43.179000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:54:16.729000', 'itemType: book', 'csf', '2013-02-25 17:54:16.729000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:54:16.783000', 'data', 'from_format', '2013-02-25 17:54:16.783000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:54:16.803000', 'itemType: book', 'csf', '2013-02-25 17:54:16.803000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:54:16.819000', 'itemType: book', 'csf', '2013-02-25 17:54:16.819000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:57:40.772000', 'itemType: book', 'csf', '2013-02-25 17:57:40.772000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:57:40.862000', 'data', 'from_format', '2013-02-25 17:57:40.862000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:57:40.882000', 'itemType: book', 'csf', '2013-02-25 17:57:40.882000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-25 17:57:40.895000', 'itemType: book', 'csf', '2013-02-25 17:57:40.895000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
