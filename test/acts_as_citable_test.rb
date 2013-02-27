@@ -38,9 +38,6 @@ class RecordTest < ActiveSupport::TestCase
   test "should be available to convert to" do
     
     rec = Record.create(:data => "itemType: book", :format => "csf")
-    zipp = Array.new
-    zipp << rec << rec
-    p zipp.to_easybib
     assert rec.to_ris.eql? "TY  - BOOK\nER  -\n\n"
     assert rec.to_bibtex.eql? "@book{????\n}"
     assert rec.to_openurl.eql? "?rft.ulr_ver=Z39.88-2004&rft.ctx_ver=Z39.88-2004&rft.rfr_id=info:sid/libraries.nyu.edu:citation&rft_val_fmlt=info:ofi/fmt:kev:mtx:book&rft.genre=book"
