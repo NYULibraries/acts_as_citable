@@ -1,6 +1,6 @@
 class TestController < ApplicationController
   respond_to :ris, :bibtex, :json
-  def show
+  def test
     rec = Record.create(:data => "itemType: book", :format => "csf")
     zip = Array.new
     zip << rec

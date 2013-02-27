@@ -36,7 +36,6 @@ class RecordTest < ActiveSupport::TestCase
   end
   
   test "should be available to convert to" do
-    
     rec = Record.create(:data => "itemType: book", :format => "csf")
     assert rec.to_ris.eql? "TY  - BOOK\nER  -\n\n"
     assert rec.to_bibtex.eql? "@book{????\n}"

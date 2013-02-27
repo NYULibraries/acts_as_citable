@@ -1,5 +1,5 @@
 Dummy::Application.routes.draw do
-  match 'test' => 'test#show'
+  match 'test' => 'test#test'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
