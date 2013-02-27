@@ -66,3 +66,3085 @@ ActiveRecord::JDBCError: query does not return ResultSet: PRAGMA table_info("sch
   [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130221214225')[0m
   [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130221210429')
+Connecting to database specified by database.yml
+
+
+Started GET "/cite" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:30:51 -0500
+
+ActionController::RoutingError (No route matches [GET] "/cite"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:32:00 -0500
+
+ActionController::RoutingError (uninitialized constant TestController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1970989261__call__892236228__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:34:36 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:34:36.539000', 'itemType: book', 'csf', '2013-02-27 19:34:36.539000')[0m
+Completed 500 Internal Server Error in 613ms
+
+SystemStackError (stack level too deep):
+  org/jruby/RubyModule.java:2303:in `module_eval'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:10:in `generate_method_for_mime'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:25:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:35:26 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:35:26.791000', 'itemType: book', 'csf', '2013-02-27 19:35:26.791000')
+Completed 500 Internal Server Error in 384ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:38:09 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:38:09.212000', 'itemType: book', 'csf', '2013-02-27 19:38:09.212000')[0m
+Completed 500 Internal Server Error in 334ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:38:25 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:38:25.059000', 'itemType: book', 'csf', '2013-02-27 19:38:25.059000')
+Completed 500 Internal Server Error in 330ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:39:21 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:39:21.688000', 'itemType: book', 'csf', '2013-02-27 19:39:21.688000')[0m
+Completed 500 Internal Server Error in 375ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:40:40 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:40:40.496000', 'itemType: book', 'csf', '2013-02-27 19:40:40.496000')
+Completed 500 Internal Server Error in 317ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:6:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:41:00 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:41:00.194000', 'itemType: book', 'csf', '2013-02-27 19:41:00.194000')[0m
+Completed 500 Internal Server Error in 84ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:6:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:42:10 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:42:10.273000', 'itemType: book', 'csf', '2013-02-27 19:42:10.273000')
+  Rendered text template (0.0ms)
+Sent data 8.ris (27.0ms)
+Completed 200 OK in 86ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:42:49 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:42:49.124000', 'itemType: book', 'csf', '2013-02-27 19:42:49.124000')[0m
+  Rendered text template (0.0ms)
+Sent data 9.ris (2.0ms)
+Completed 200 OK in 14ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:42:51 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:42:51.132000', 'itemType: book', 'csf', '2013-02-27 19:42:51.132000')
+  Rendered text template (0.0ms)
+Sent data 10.ris (2.0ms)
+Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:49:38 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:49:38.530000', 'itemType: book', 'csf', '2013-02-27 19:49:38.530000')[0m
+Completed 500 Internal Server Error in 303ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:50:10 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:50:10.643000', 'itemType: book', 'csf', '2013-02-27 19:50:10.643000')
+Completed 500 Internal Server Error in 399ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:50:13 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:50:13.857000', 'itemType: book', 'csf', '2013-02-27 19:50:13.857000')[0m
+Completed 500 Internal Server Error in 361ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:50:21 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:50:21.319000', 'itemType: book', 'csf', '2013-02-27 19:50:21.319000')
+Completed 500 Internal Server Error in 366ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 14:57:38 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 19:57:38.707000', 'itemType: book', 'csf', '2013-02-27 19:57:38.707000')[0m
+Completed   in 370ms
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:00:30 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:00:30.612000', 'itemType: book', 'csf', '2013-02-27 20:00:30.612000')
+Completed   in 386ms
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:00:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:00:43 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:00:43.757000', 'itemType: book', 'csf', '2013-02-27 20:00:43.757000')[0m
+Completed 500 Internal Server Error in 390ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:00:48 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:00:48.402000', 'itemType: book', 'csf', '2013-02-27 20:00:48.402000')
+Completed   in 360ms
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:02:53 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:02:53.877000', 'itemType: book', 'csf', '2013-02-27 20:02:53.877000')[0m
+Completed 500 Internal Server Error in 60ms
+
+ActionView::MissingTemplate (Missing template test/ris, application/ris with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :Bibtex, :RIS, :openurl, :csf, :easybib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:6:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:03:01 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:03:02.066000', 'itemType: book', 'csf', '2013-02-27 20:03:02.066000')
+  Rendered text template (0.0ms)
+Sent data 20.ris (6.0ms)
+Completed 200 OK in 55ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:04:05 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:04:05.887000', 'itemType: book', 'csf', '2013-02-27 20:04:05.887000')[0m
+  Rendered text template (0.0ms)
+Sent data 21.ris (2.0ms)
+Completed 200 OK in 22ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:04:08 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:04:08.724000', 'itemType: book', 'csf', '2013-02-27 20:04:08.724000')
+  Rendered text template (0.0ms)
+Sent data 22.ris (1.0ms)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:11:08 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:11:08.856000', 'itemType: book', 'csf', '2013-02-27 20:11:08.856000')[0m
+Completed 500 Internal Server Error in 395ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:13:35 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:13:35.288000', 'itemType: book', 'csf', '2013-02-27 20:13:35.288000')
+Completed 500 Internal Server Error in 379ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:13:38 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:13:38.258000', 'itemType: book', 'csf', '2013-02-27 20:13:38.258000')[0m
+Completed 500 Internal Server Error in 367ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:13:53 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:13:53.022000', 'itemType: book', 'csf', '2013-02-27 20:13:53.022000')
+Completed   in 371ms
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:14:06 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:14:06.079000', 'itemType: book', 'csf', '2013-02-27 20:14:06.079000')[0m
+Completed   in 394ms
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:15:59 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:15:59.275000', 'itemType: book', 'csf', '2013-02-27 20:15:59.275000')
+Completed   in 368ms
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:16:05 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:16:05.715000', 'itemType: book', 'csf', '2013-02-27 20:16:05.715000')[0m
+Completed   in 362ms
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:16:16 -0500
+DEPRECATION WARNING: Database connections will not be closed automatically, please close your
+database connection at the end of the thread by calling `close` on your
+connection.  For example: ActiveRecord::Base.connection.close
+. (called from mon_synchronize at /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/monitor.rb:211)
+DEPRECATION WARNING: Database connections will not be closed automatically, please close your
+database connection at the end of the thread by calling `close` on your
+connection.  For example: ActiveRecord::Base.connection.close
+. (called from mon_synchronize at /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/monitor.rb:211)
+DEPRECATION WARNING: Database connections will not be closed automatically, please close your
+database connection at the end of the thread by calling `close` on your
+connection.  For example: ActiveRecord::Base.connection.close
+. (called from mon_synchronize at /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/monitor.rb:211)
+DEPRECATION WARNING: Database connections will not be closed automatically, please close your
+database connection at the end of the thread by calling `close` on your
+connection.  For example: ActiveRecord::Base.connection.close
+. (called from mon_synchronize at /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/monitor.rb:211)
+DEPRECATION WARNING: Database connections will not be closed automatically, please close your
+database connection at the end of the thread by calling `close` on your
+connection.  For example: ActiveRecord::Base.connection.close
+. (called from mon_synchronize at /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/monitor.rb:211)
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:16:37 -0500
+Processing by TestController#show as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:16:37.299000', 'itemType: book', 'csf', '2013-02-27 20:16:37.299000')[0m
+Completed 500 Internal Server Error in 640ms
+
+SystemStackError (stack level too deep):
+  org/jruby/RubyModule.java:2303:in `module_eval'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:10:in `generate_method_for_mime'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:25:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/test" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:23:07 -0500
+Processing by TestController#show as HTML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:23:07.234000', 'itemType: book', 'csf', '2013-02-27 20:23:07.234000')
+Completed 500 Internal Server Error in 314ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:23:12 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:23:12.658000', 'itemType: book', 'csf', '2013-02-27 20:23:12.658000')[0m
+Completed 500 Internal Server Error in 329ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:53:20 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:53:20.948000', 'itemType: book', 'csf', '2013-02-27 20:53:20.948000')
+Completed 500 Internal Server Error in 348ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:53:55 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:53:55.874000', 'itemType: book', 'csf', '2013-02-27 20:53:55.874000')[0m
+Completed 500 Internal Server Error in 116ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:54:26 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:54:26.274000', 'itemType: book', 'csf', '2013-02-27 20:54:26.274000')
+Completed 500 Internal Server Error in 23ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:54:54 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:54:54.944000', 'itemType: book', 'csf', '2013-02-27 20:54:54.944000')[0m
+Completed 500 Internal Server Error in 14ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:56:39 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:56:39.137000', 'itemType: book', 'csf', '2013-02-27 20:56:39.137000')
+Completed 500 Internal Server Error in 66ms
+
+NameError (uninitialized constant Mime::BIBTEX):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:57:13 -0500
+
+SyntaxError (/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/controllers/test_controller.rb:2: syntax error, unexpected ':'
+
+  respond_to :ris :bibtex, :easybib
+                  ^):
+  org/jruby/RubyKernel.java:1046:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:1:in `(root)'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  org/jruby/RubyArray.java:1613:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `constantize'
+  org/jruby/RubyArray.java:1613:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__337254419__call__1401235114__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:57:21 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:57:21.282000', 'itemType: book', 'csf', '2013-02-27 20:57:21.282000')[0m
+Completed 500 Internal Server Error in 52ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:57:28 -0500
+
+ArgumentError (wrong number of arguments calling `respond_to?` (3 for 2)):
+  app/controllers/test_controller.rb:2:in `TestController'
+  app/controllers/test_controller.rb:1:in `(root)'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:57:32 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:57:32.453000', 'itemType: book', 'csf', '2013-02-27 20:57:32.453000')
+Completed 500 Internal Server Error in 45ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 15:59:44 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 20:59:44.424000', 'itemType: book', 'csf', '2013-02-27 20:59:44.424000')[0m
+Completed 500 Internal Server Error in 592ms
+
+SystemStackError (stack level too deep):
+  org/jruby/RubyModule.java:2303:in `module_eval'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:10:in `generate_method_for_mime'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:25:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:00:13 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:00:13.086000', 'itemType: book', 'csf', '2013-02-27 21:00:13.086000')
+Completed 500 Internal Server Error in 280ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:00:39 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:00:39.621000', 'itemType: book', 'csf', '2013-02-27 21:00:39.621000')[0m
+Completed 500 Internal Server Error in 48ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:02:25 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:02:25.807000', 'itemType: book', 'csf', '2013-02-27 21:02:25.807000')
+Completed 500 Internal Server Error in 365ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:02:39 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:02:39.544000', 'itemType: book', 'csf', '2013-02-27 21:02:39.544000')[0m
+Completed 500 Internal Server Error in 355ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:02:44 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:02:44.692000', 'itemType: book', 'csf', '2013-02-27 21:02:44.692000')
+Completed 500 Internal Server Error in 363ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:02:47 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:02:47.095000', 'itemType: book', 'csf', '2013-02-27 21:02:47.095000')[0m
+Completed 500 Internal Server Error in 431ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:03:07 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:03:07.492000', 'itemType: book', 'csf', '2013-02-27 21:03:07.492000')
+Completed 500 Internal Server Error in 521ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:03:25 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:03:25.801000', 'itemType: book', 'csf', '2013-02-27 21:03:25.801000')[0m
+Completed 500 Internal Server Error in 118ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/test.ris" for 127.0.0.1 at 2013-02-27 16:03:44 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:03:44.249000', 'itemType: book', 'csf', '2013-02-27 21:03:44.249000')
+Completed 500 Internal Server Error in 39ms
+
+NameError (uninitialized constant Mime::RIS):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:04:04 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:04:04.827000', 'itemType: book', 'csf', '2013-02-27 21:04:04.827000')[0m
+Completed 500 Internal Server Error in 601ms
+
+SystemStackError (stack level too deep):
+  org/jruby/RubyModule.java:2303:in `module_eval'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:10:in `generate_method_for_mime'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:25:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  actionpack (3.2.12) lib/abstract_controller/collector.rb:26:in `method_missing'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:04:08 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:04:08.932000', 'itemType: book', 'csf', '2013-02-27 21:04:08.932000')
+Completed 500 Internal Server Error in 293ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:04:43 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:04:43.592000', 'itemType: book', 'csf', '2013-02-27 21:04:43.592000')[0m
+Completed 500 Internal Server Error in 314ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:04:48 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:04:48.025000', 'itemType: book', 'csf', '2013-02-27 21:04:48.025000')
+Completed 500 Internal Server Error in 332ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:04:54 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:04:54.308000', 'itemType: book', 'csf', '2013-02-27 21:04:54.308000')[0m
+Completed 500 Internal Server Error in 379ms
+
+SystemStackError (stack level too deep):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:05:12 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:05:12.721000', 'itemType: book', 'csf', '2013-02-27 21:05:12.721000')
+Completed 406 Not Acceptable in 56ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:05:16 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:05:16.510000', 'itemType: book', 'csf', '2013-02-27 21:05:16.510000')[0m
+Completed 200 OK in 87ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:05:29 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:05:29.751000', 'itemType: book', 'csf', '2013-02-27 21:05:29.751000')
+Completed 406 Not Acceptable in 37ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:05:38 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:05:38.811000', 'itemType: book', 'csf', '2013-02-27 21:05:38.811000')[0m
+Completed 406 Not Acceptable in 85ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:05:47 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:05:47.316000', 'itemType: book', 'csf', '2013-02-27 21:05:47.316000')
+Completed 200 OK in 51ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:07:42 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:07:42.444000', 'itemType: book', 'csf', '2013-02-27 21:07:42.444000')[0m
+Completed 200 OK in 59ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:08:46 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:08:47.039000', 'itemType: book', 'csf', '2013-02-27 21:08:47.039000')
+Completed 200 OK in 52ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:08:49 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:08:49.541000', 'itemType: book', 'csf', '2013-02-27 21:08:49.541000')[0m
+Completed 200 OK in 50ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:09:00 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:09:00.700000', 'itemType: book', 'csf', '2013-02-27 21:09:00.700000')
+Completed 200 OK in 54ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:09:11 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:09:11.607000', 'itemType: book', 'csf', '2013-02-27 21:09:11.607000')[0m
+Completed 200 OK in 46ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:09:21 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:09:21.611000', 'itemType: book', 'csf', '2013-02-27 21:09:21.611000')
+Completed 406 Not Acceptable in 32ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:09:26 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:09:26.482000', 'itemType: book', 'csf', '2013-02-27 21:09:26.482000')[0m
+Completed 406 Not Acceptable in 13ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:09:39 -0500
+Processing by TestController#show as XML
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:09:39.604000', 'itemType: book', 'csf', '2013-02-27 21:09:39.604000')
+Completed 200 OK in 53ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:10:10 -0500
+Processing by TestController#show as XML
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:10:10.073000', 'itemType: book', 'csf', '2013-02-27 21:10:10.073000')[0m
+Completed 406 Not Acceptable in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:10:18 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:10:18.695000', 'itemType: book', 'csf', '2013-02-27 21:10:18.695000')
+Completed 500 Internal Server Error in 15ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:RIS], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:8:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:10:34 -0500
+Processing by TestController#show as RIS
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:10:34.403000', 'itemType: book', 'csf', '2013-02-27 21:10:34.403000')[0m
+Completed 500 Internal Server Error in 44ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:RIS], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:10:38 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:10:38.978000', 'itemType: book', 'csf', '2013-02-27 21:10:38.978000')
+Completed 406 Not Acceptable in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:10:59 -0500
+Processing by TestController#show as RIS
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:10:59.755000', 'itemType: book', 'csf', '2013-02-27 21:10:59.755000')[0m
+Completed 500 Internal Server Error in 16ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:RIS], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:11:51 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:11:51.081000', 'itemType: book', 'csf', '2013-02-27 21:11:51.081000')
+Completed 500 Internal Server Error in 38ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:RIS], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:13:40 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:13:40.649000', 'itemType: book', 'csf', '2013-02-27 21:13:40.649000')[0m
+Completed 406 Not Acceptable in 111ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:13:44 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:13:44.367000', 'itemType: book', 'csf', '2013-02-27 21:13:44.367000')
+  Rendered text template (1.0ms)
+Sent data 75.ris (3.0ms)
+Completed 200 OK in 75ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:13:59 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:13:59.990000', 'itemType: book', 'csf', '2013-02-27 21:13:59.990000')[0m
+  Rendered text template (0.0ms)
+Sent data 76.bib (2.0ms)
+Completed 200 OK in 31ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.csf" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:14:12 -0500
+Processing by TestController#show as CSF
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:14:12.608000', 'itemType: book', 'csf', '2013-02-27 21:14:12.608000')
+Completed 500 Internal Server Error in 17ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:csf], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:16:42 -0500
+Processing by TestController#show as RIS
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:16:42.958000', 'itemType: book', 'csf', '2013-02-27 21:16:42.958000')[0m
+  Rendered text template (0.0ms)
+Sent data 78.ris (5.0ms)
+Completed 200 OK in 191ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.csf" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:20:27 -0500
+Processing by TestController#show as CSF
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:20:27.260000', 'itemType: book', 'csf', '2013-02-27 21:20:27.260000')[0m
+Completed 500 Internal Server Error in 140ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:csf], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:20:31 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:20:31.340000', 'itemType: book', 'csf', '2013-02-27 21:20:31.340000')
+  Rendered text template (0.0ms)
+Sent data 80.ris (4.0ms)
+Completed 200 OK in 60ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.csf" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:20:43 -0500
+Processing by TestController#show as CSF
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:20:43.999000', 'itemType: book', 'csf', '2013-02-27 21:20:43.999000')[0m
+Completed 500 Internal Server Error in 17ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:csf], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:20:47 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:20:47.258000', 'itemType: book', 'csf', '2013-02-27 21:20:47.258000')
+  Rendered text template (0.0ms)
+Sent data 82.ris (1.0ms)
+Completed 200 OK in 24ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.json" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:25:28 -0500
+Processing by TestController#show as JSON
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:25:28.756000', 'itemType: book', 'csf', '2013-02-27 21:25:28.756000')[0m
+Completed 200 OK in 143ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:25:39 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:25:39.306000', 'itemType: book', 'csf', '2013-02-27 21:25:39.306000')
+  Rendered text template (0.0ms)
+Sent data 84.ris (3.0ms)
+Completed 200 OK in 62ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.RIS" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:25:43 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:25:43.218000', 'itemType: book', 'csf', '2013-02-27 21:25:43.218000')[0m
+Completed 406 Not Acceptable in 17ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:25:49 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:25:49.493000', 'itemType: book', 'csf', '2013-02-27 21:25:49.493000')
+  Rendered text template (1.0ms)
+Sent data 86.bib (2.0ms)
+Completed 200 OK in 27ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:27:25 -0500
+Processing by TestController#show as BIB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:27:25.459000', 'itemType: book', 'csf', '2013-02-27 21:27:25.459000')[0m
+Completed 500 Internal Server Error in 134ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (4.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:31:35 -0500
+Processing by TestController#show as BIB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:31:35.284000', 'itemType: book', 'csf', '2013-02-27 21:31:35.284000')[0m
+Completed 500 Internal Server Error in 134ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (4.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:34:13 -0500
+Processing by TestController#show as BIB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:34:13.394000', 'itemType: book', 'csf', '2013-02-27 21:34:13.394000')[0m
+Completed 500 Internal Server Error in 131ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (4.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:34:44 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:34:44.292000', 'itemType: book', 'csf', '2013-02-27 21:34:44.292000')
+Completed 500 Internal Server Error in 61ms
+
+NoMethodError (undefined method `content_type' for main:Object):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:35:33 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:35:33.533000', 'itemType: book', 'csf', '2013-02-27 21:35:33.533000')[0m
+  Rendered text template (0.0ms)
+Sent data 91.bib (3.0ms)
+Completed 200 OK in 182ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1475286453__call__809481543__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:37:25 -0500
+Processing by TestController#show as BIB
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:37:25.133000', 'itemType: book', 'csf', '2013-02-27 21:37:25.133000')
+Completed 500 Internal Server Error in 22ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:37:52 -0500
+Processing by TestController#show as BIB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:37:53.011000', 'itemType: book', 'csf', '2013-02-27 21:37:53.011000')[0m
+Completed 500 Internal Server Error in 69ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:38:14 -0500
+Processing by TestController#show as BIB
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:38:14.137000', 'itemType: book', 'csf', '2013-02-27 21:38:14.137000')
+  Rendered text template (0.0ms)
+Sent data 94.bib (2.0ms)
+Completed 200 OK in 66ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1475286453__call__809481543__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:38:19 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:38:19.069000', 'itemType: book', 'csf', '2013-02-27 21:38:19.069000')[0m
+  Rendered text template (0.0ms)
+Sent data 95.bib (1.0ms)
+Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1475286453__call__809481543__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:38:30 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:38:30.860000', 'itemType: book', 'csf', '2013-02-27 21:38:30.860000')
+  Rendered text template (0.0ms)
+Sent data 96.bib (2.0ms)
+Completed 200 OK in 22ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1475286453__call__809481543__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:38:51 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:38:51.750000', 'itemType: book', 'csf', '2013-02-27 21:38:51.750000')[0m
+  Rendered text template (0.0ms)
+Sent data 97.bib (4.0ms)
+Completed 200 OK in 182ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1504489501__call__1089071001__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/test.ris" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:39:12 -0500
+Processing by TestController#show as RIS
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:39:12.413000', 'itemType: book', 'csf', '2013-02-27 21:39:12.413000')
+  Rendered text template (0.0ms)
+Sent data 98.ris (3.0ms)
+Completed 200 OK in 33ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:39:15 -0500
+Processing by TestController#show as BIB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:39:15.579000', 'itemType: book', 'csf', '2013-02-27 21:39:15.579000')[0m
+Completed 500 Internal Server Error in 29ms
+
+ActionView::MissingTemplate (Missing template test/show, application/show with {:locale=>[:en], :formats=>[:bib], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/hannan/Documents/workspace/aac/acts_as_citable/test/dummy/app/views"
+):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:39:20 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:39:20.316000', 'itemType: book', 'csf', '2013-02-27 21:39:20.316000')
+  Rendered text template (0.0ms)
+Sent data 100.bib (2.0ms)
+Completed 200 OK in 22ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1504489501__call__1089071001__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:40:23 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:40:24.068000', 'itemType: book', 'csf', '2013-02-27 21:40:24.068000')[0m
+  Rendered text template (0.0ms)
+Sent data 101.bib (5.0ms)
+Completed 200 OK in 176ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__482436186__call__1450117474__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:41:06 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:41:06.486000', 'itemType: book', 'csf', '2013-02-27 21:41:06.486000')[0m
+  Rendered text template (0.0ms)
+Sent data 102.bib (4.0ms)
+Completed 200 OK in 183ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1678341129__call__674267194__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:41:33 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:41:33.388000', 'itemType: book', 'csf', '2013-02-27 21:41:33.388000')
+  Rendered text template (0.0ms)
+Sent data 103.bib (2.0ms)
+Completed 200 OK in 60ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1678341129__call__674267194__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:41:34 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:41:35.008000', 'itemType: book', 'csf', '2013-02-27 21:41:35.008000')[0m
+  Rendered text template (0.0ms)
+Sent data 104.bib (1.0ms)
+Completed 200 OK in 29ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1678341129__call__674267194__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:42:00 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:42:00.547000', 'itemType: book', 'csf', '2013-02-27 21:42:00.547000')[0m
+  Rendered text template (1.0ms)
+Sent data 105.bib (5.0ms)
+Completed 200 OK in 176ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1916344210__call__202351093__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:42:14 -0500
+Processing by TestController#show as BIBTEX
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:42:14.242000', 'itemType: book', 'csf', '2013-02-27 21:42:14.242000')
+  Rendered text template (0.0ms)
+Sent data 106.bib (2.0ms)
+Completed 200 OK in 35ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+TypeError (can't dup Symbol):
+  org/jruby/RubyKernel.java:1908:in `dup'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:200:in `assign_default_content_type_and_charset!'
+  actionpack (3.2.12) lib/action_dispatch/http/response.rb:160:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:208:in `to_a'
+  actionpack (3.2.12) lib/action_controller/metal.rb:204:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `action'
+  org/jruby/RubyProc.java:249:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  org/jruby/RubyArray.java:1613:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:408:in `_run__1916344210__call__202351093__callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:390:in `_run_call_callbacks'
+  org/jruby/RubyBasicObject.java:1659:in `__send__'
+  org/jruby/RubyKernel.java:2086:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:138:in `service'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/httpserver.rb:94:in `run'
+  /Users/hannan/.rvm/rubies/jruby-1.7.2/lib/ruby/1.9/webrick/server.rb:191:in `start_thread'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:42:33 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:42:34.203000', 'itemType: book', 'csf', '2013-02-27 21:42:34.203000')[0m
+  Rendered text template (0.0ms)
+Sent data 107.bib (4.0ms)
+Completed 200 OK in 174ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bibtex" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:45:14 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:45:15.004000', 'itemType: book', 'csf', '2013-02-27 21:45:15.004000')[0m
+  Rendered text template (0.0ms)
+Sent data 108.bib (4.0ms)
+Completed 200 OK in 177ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:45:17 -0500
+Processing by TestController#show as 
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:45:17.780000', 'itemType: book', 'csf', '2013-02-27 21:45:17.780000')
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:45:44 -0500
+Processing by TestController#show as 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:45:44.733000', 'itemType: book', 'csf', '2013-02-27 21:45:44.733000')[0m
+Completed 500 Internal Server Error in 66ms
+
+NameError (uninitialized constant Mime::BIB):
+  app/controllers/test_controller.rb:7:in `show'
+
+
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/hannan/.rvm/gems/jruby-1.7.2/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test.bib" for 0:0:0:0:0:0:0:1%0 at 2013-02-27 16:46:47 -0500
+Processing by TestController#show as BIBTEX
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-02-27 21:46:47.332000', 'itemType: book', 'csf', '2013-02-27 21:46:47.332000')[0m
+  Rendered text template (0.0ms)
+Sent data 111.bib (4.0ms)
+Completed 200 OK in 190ms (Views: 48.0ms | ActiveRecord: 0.0ms)
