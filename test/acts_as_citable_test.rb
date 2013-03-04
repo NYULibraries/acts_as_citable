@@ -35,6 +35,13 @@ class RecordTest < ActiveSupport::TestCase
     assert !rec.respond_to?(:from_pnx)
   end
   
+  test "should raise no method error" do
+    rec = Record.create(:data => "itemType: book", :format => "csf")
+    assert_raise NoMethodError do
+       rec.from_ris
+     end
+  end
+  
   test "should be available to convert to" do
     rec = Record.create(:data => "itemType: book", :format => "csf")
     assert rec.to_ris.eql? "TY  - BOOK\nER  -\n\n"
@@ -47,6 +54,13 @@ class RecordTest < ActiveSupport::TestCase
     assert_nothing_raised("New Nokogiri::XML::Document raises an error.") {
       Nokogiri::XML::Document.new
     }
+  end
+  
+  test "arrays should be able to convert to ris and bibtex" do
+    arr = Array.new
+    arr << Record.create(:data => "itemType: book", :format => "csf") << Record.create(:data => "itemType: book", :format => "csf")
+    assert arr.to_bibtex
+    assert arr.to_ris
   end
   
 end
