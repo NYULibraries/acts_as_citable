@@ -1,3 +1,9 @@
+require 'simplecov'
+require 'simplecov-rcov'
+
+SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
+SimpleCov.start 'rails'
+
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
