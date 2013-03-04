@@ -24,6 +24,7 @@ class RecordTest < ActiveSupport::TestCase
     assert rec.respond_to?(:to_openurl)
     assert rec.respond_to?(:to_csf)
     assert rec.respond_to?(:to_easybib)
+    assert rec.respond_to?(:csf)
   end
   
   test "should check to see if you cannot convert from" do
