@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency "citero", "~> 1.0"
 
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
+  s.add_development_dependency "nokogiri"
 end

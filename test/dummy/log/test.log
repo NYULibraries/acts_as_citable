@@ -639,3 +639,433 @@ Processing by TestController#test as RIS
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
 Sent data 1.ris (1.0ms)
 Completed 200 OK in 23ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.571000', 'itemType: book', 'csf', '2013-03-04 18:35:45.571000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.703000', 'data', 'from_format', '2013-03-04 18:35:45.703000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.725000', 'itemType: book', 'csf', '2013-03-04 18:35:45.725000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.741000', 'itemType: book', 'csf', '2013-03-04 18:35:45.741000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.809000', 'itemType: book', 'csf', '2013-03-04 18:35:45.809000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 12ms (ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.841000', 'itemType: book', 'csf', '2013-03-04 18:35:45.841000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (14.0ms)
+Completed 200 OK in 74ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.931000', 'itemType: book', 'csf', '2013-03-04 18:35:45.931000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:35:45.960000', 'itemType: book', 'csf', '2013-03-04 18:35:45.960000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 25ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.647000', 'itemType: book', 'csf', '2013-03-04 18:41:19.647000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.718000', 'data', 'from_format', '2013-03-04 18:41:19.718000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.737000', 'itemType: book', 'csf', '2013-03-04 18:41:19.737000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.751000', 'itemType: book', 'csf', '2013-03-04 18:41:19.751000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.819000', 'itemType: book', 'csf', '2013-03-04 18:41:19.819000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 11ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.856000', 'itemType: book', 'csf', '2013-03-04 18:41:19.856000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 34ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.946000', 'itemType: book', 'csf', '2013-03-04 18:41:19.946000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 16ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:41:19.976000', 'itemType: book', 'csf', '2013-03-04 18:41:19.976000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 27ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.121000', 'itemType: book', 'csf', '2013-03-04 18:42:27.121000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.205000', 'data', 'from_format', '2013-03-04 18:42:27.205000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.226000', 'itemType: book', 'csf', '2013-03-04 18:42:27.226000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.240000', 'itemType: book', 'csf', '2013-03-04 18:42:27.240000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.287000', 'itemType: book', 'csf', '2013-03-04 18:42:27.287000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 14ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.320000', 'itemType: book', 'csf', '2013-03-04 18:42:27.320000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 52ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.382000', 'itemType: book', 'csf', '2013-03-04 18:42:27.382000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 22ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:42:27.416000', 'itemType: book', 'csf', '2013-03-04 18:42:27.416000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 22ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.617000', 'itemType: book', 'csf', '2013-03-04 18:43:39.617000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.707000', 'data', 'from_format', '2013-03-04 18:43:39.707000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.724000', 'itemType: book', 'csf', '2013-03-04 18:43:39.724000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.738000', 'itemType: book', 'csf', '2013-03-04 18:43:39.738000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.773000', 'itemType: book', 'csf', '2013-03-04 18:43:39.773000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 10ms (ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.798000', 'itemType: book', 'csf', '2013-03-04 18:43:39.798000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 34ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.842000', 'itemType: book', 'csf', '2013-03-04 18:43:39.842000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:43:39.870000', 'itemType: book', 'csf', '2013-03-04 18:43:39.870000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 21ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.296000', 'itemType: book', 'csf', '2013-03-04 18:44:37.296000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.437000', 'data', 'from_format', '2013-03-04 18:44:37.437000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.454000', 'itemType: book', 'csf', '2013-03-04 18:44:37.454000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.468000', 'itemType: book', 'csf', '2013-03-04 18:44:37.468000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.503000', 'itemType: book', 'csf', '2013-03-04 18:44:37.503000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.530000', 'itemType: book', 'csf', '2013-03-04 18:44:37.530000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (2.0ms)
+Completed 200 OK in 37ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.576000', 'itemType: book', 'csf', '2013-03-04 18:44:37.576000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:44:37.606000', 'itemType: book', 'csf', '2013-03-04 18:44:37.606000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (2.0ms)
+Completed 200 OK in 28ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.054000', 'itemType: book', 'csf', '2013-03-04 18:45:59.054000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.137000', 'data', 'from_format', '2013-03-04 18:45:59.137000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.154000', 'itemType: book', 'csf', '2013-03-04 18:45:59.154000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.170000', 'itemType: book', 'csf', '2013-03-04 18:45:59.170000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.206000', 'itemType: book', 'csf', '2013-03-04 18:45:59.206000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 2.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.233000', 'itemType: book', 'csf', '2013-03-04 18:45:59.233000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (2.0ms)
+Completed 200 OK in 37ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.277000', 'itemType: book', 'csf', '2013-03-04 18:45:59.277000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 17ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:45:59.305000', 'itemType: book', 'csf', '2013-03-04 18:45:59.305000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (2.0ms)
+Completed 200 OK in 22ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.619000', 'itemType: book', 'csf', '2013-03-04 18:46:24.619000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.708000', 'data', 'from_format', '2013-03-04 18:46:24.708000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.726000', 'itemType: book', 'csf', '2013-03-04 18:46:24.726000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.740000', 'itemType: book', 'csf', '2013-03-04 18:46:24.740000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.781000', 'itemType: book', 'csf', '2013-03-04 18:46:24.781000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.808000', 'itemType: book', 'csf', '2013-03-04 18:46:24.808000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (2.0ms)
+Completed 200 OK in 38ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.855000', 'itemType: book', 'csf', '2013-03-04 18:46:24.855000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 17ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:24.884000', 'itemType: book', 'csf', '2013-03-04 18:46:24.884000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 21ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.425000', 'itemType: book', 'csf', '2013-03-04 18:46:51.425000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.498000', 'data', 'from_format', '2013-03-04 18:46:51.498000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.516000', 'itemType: book', 'csf', '2013-03-04 18:46:51.516000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.532000', 'itemType: book', 'csf', '2013-03-04 18:46:51.532000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.567000', 'itemType: book', 'csf', '2013-03-04 18:46:51.567000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.594000', 'itemType: book', 'csf', '2013-03-04 18:46:51.594000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 40ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.641000', 'itemType: book', 'csf', '2013-03-04 18:46:51.641000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 16ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:46:51.669000', 'itemType: book', 'csf', '2013-03-04 18:46:51.669000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 21ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:31.822000', 'itemType: book', 'csf', '2013-03-04 18:47:31.822000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:31.918000', 'data', 'from_format', '2013-03-04 18:47:31.918000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:31.940000', 'itemType: book', 'csf', '2013-03-04 18:47:31.940000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:31.956000', 'itemType: book', 'csf', '2013-03-04 18:47:31.956000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:31.993000', 'itemType: book', 'csf', '2013-03-04 18:47:31.993000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 14ms (ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:32.017000', 'itemType: book', 'csf', '2013-03-04 18:47:32.017000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 34ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:32.059000', 'itemType: book', 'csf', '2013-03-04 18:47:32.059000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 16ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:32.086000', 'itemType: book', 'csf', '2013-03-04 18:47:32.086000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (2.0ms)
+Completed 200 OK in 21ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.069000', 'itemType: book', 'csf', '2013-03-04 18:47:57.069000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.156000', 'data', 'from_format', '2013-03-04 18:47:57.156000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.176000', 'itemType: book', 'csf', '2013-03-04 18:47:57.176000')[0m
+  [1m[35m (1.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.190000', 'itemType: book', 'csf', '2013-03-04 18:47:57.190000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.230000', 'itemType: book', 'csf', '2013-03-04 18:47:57.230000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 16ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.257000', 'itemType: book', 'csf', '2013-03-04 18:47:57.257000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (2.0ms)
+Completed 200 OK in 38ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.307000', 'itemType: book', 'csf', '2013-03-04 18:47:57.307000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 17ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:47:57.335000', 'itemType: book', 'csf', '2013-03-04 18:47:57.335000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (2.0ms)
+Completed 200 OK in 21ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.675000', 'itemType: book', 'csf', '2013-03-04 18:50:47.675000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.761000', 'data', 'from_format', '2013-03-04 18:50:47.761000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "records" WHERE "records"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.782000', 'itemType: book', 'csf', '2013-03-04 18:50:47.782000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.797000', 'itemType: book', 'csf', '2013-03-04 18:50:47.797000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TestController#test as 
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.839000', 'itemType: book', 'csf', '2013-03-04 18:50:47.839000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 406 Not Acceptable in 16ms (ActiveRecord: 1.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.864000', 'itemType: book', 'csf', '2013-03-04 18:50:47.864000')
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.bib (3.0ms)
+Completed 200 OK in 44ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as BIBTEX
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.921000', 'itemType: book', 'csf', '2013-03-04 18:50:47.921000')[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Sent data 1.bib (1.0ms)
+Completed 200 OK in 21ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Processing by TestController#test as RIS
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "records" ("created_at", "data", "format", "updated_at") VALUES ('2013-03-04 18:50:47.956000', 'itemType: book', 'csf', '2013-03-04 18:50:47.956000')
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Sent data 1.ris (1.0ms)
+Completed 200 OK in 27ms (Views: 6.0ms | ActiveRecord: 0.0ms)
