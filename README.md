@@ -3,6 +3,7 @@ acts_as_citable
 [![Build Status](https://travis-ci.org/NYULibraries/acts_as_citable.png?branch=master)](https://travis-ci.org/NYULibraries/acts_as_citable)
 [![Coverage Status](https://coveralls.io/repos/NYULibraries/acts_as_citable/badge.png?branch=master)](https://coveralls.io/r/NYULibraries/acts_as_citable)
 [![Dependency Status](https://gemnasium.com/NYULibraries/acts_as_citable.png)](https://gemnasium.com/NYULibraries/acts_as_citable)
+[![Gem Version](https://badge.fury.io/rb/acts_as_citable.png)](http://badge.fury.io/rb/acts_as_citable)
 
 Acts as gem for Citero. This gem allows an object to utilize Citero's translating properties.
 
