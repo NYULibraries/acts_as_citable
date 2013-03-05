@@ -1,6 +1,10 @@
 require 'simplecov'
 require 'simplecov-rcov'
 
+require 'coveralls'
+Coveralls.wear!
+
+
 SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
 SimpleCov.start 'rails'
 
