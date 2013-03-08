@@ -26,7 +26,7 @@ module ActsAsCitable
         #Defines the method and caches it to the class
         self.class.send(:define_method, meth) do
           # Uses data_field and format_field to translate the metadata.
-          Citero.map(self[self.data_field]).send("from_#{self[self.format_field]}").send(meth)
+          Citero.map(data).send("from_#{format}").send(meth)
         end
         # calls the method
         send meth, *args, &block
@@ -58,6 +58,16 @@ module ActsAsCitable
       meth.to_s.split(delimiter, 2).first
     end
     private :directionize
+    
+    def data
+      self[self.data_field]
+    end
+    private :data
+    
+    def format
+      self[self.format_field]
+    end
+    private :format
     
   end
   
