@@ -26,7 +26,7 @@ module ActsAsCitable
         #Defines the method and caches it to the class
         self.class.send(:define_method, meth) do
           # Uses data_field and format_field to translate the metadata.
-          Citero.map(data).send("from_#{format}").send(meth)
+          Citero.map(get('data')).send("from_#{get('format')}").send(meth)
         end
         # calls the method
         send meth, *args, &block
@@ -59,15 +59,10 @@ module ActsAsCitable
     end
     private :directionize
     
-    def data
-      self[self.data_field]
+    def get field
+      read_attribute(self.send("#{field}_field")) or instance_variable_get("@#{self.send("#{field}_field")}")
     end
-    private :data
-    
-    def format
-      self[self.format_field]
-    end
-    private :format
+    private :get
     
   end
   
