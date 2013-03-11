@@ -60,7 +60,7 @@ module ActsAsCitable
     private :directionize
     
     def get field
-      read_attribute(self.send("#{field}_field")) or instance_variable_get("@#{self.send("#{field}_field")}")
+      instance_variable_get("@#{self.send("#{field}_field")}") or read_attribute(self.send("#{field}_field"))
     end
     private :get
     
