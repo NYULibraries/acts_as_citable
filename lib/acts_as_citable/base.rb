@@ -1,12 +1,14 @@
 require 'citero'
 module ActsAsCitable
-  
+  # Set attribute accessors
+  attr_accessor :format_field, :data_field
+
   # Hooks into an object to define its 'format' and 'data' fields. These are used to
   # translate into other forms of metadata.
   def acts_as_citable &block
-    # Set class attribute accessors, default to format and data
-    cattr_accessor(:format_field) {'format'}
-    cattr_accessor(:data_field) {'data'}
+    # Default to format and data
+    self.format_field = 'format'
+    self.data_field = 'data'
     # Allow for configurations
     if block
       yield self
@@ -26,7 +28,7 @@ module ActsAsCitable
         #Defines the method and caches it to the class
         self.class.send(:define_method, meth) do
           # Uses data_field and format_field to translate the metadata.
-          Citero.map(get('data')).send("from_#{get('format')}").send(meth)
+          Citero.map(_data).send("from_#{_format}").send(meth)
         end
         # calls the method
         send meth, *args, &block
@@ -59,10 +61,23 @@ module ActsAsCitable
     end
     private :directionize
     
-    def get field
-      instance_variable_get("@#{self.send("#{field}_field")}") or read_attribute(self.send("#{field}_field"))
+    def data_field
+      @data_field ||= self.class.data_field
     end
-    private :get
+    
+    def format_field
+      @format_field ||= self.class.format_field
+    end
+    
+    def _data
+      self.send(data_field.to_sym)
+    end
+    private :_data
+    
+    def _format
+      self.send(format_field.to_sym)
+    end
+    private :_format
     
   end
   
