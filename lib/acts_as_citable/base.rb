@@ -1,3 +1,5 @@
+require 'acts_as_citable/mime_types'
+require 'acts_as_citable/renderers'
 require 'citero'
 module ActsAsCitable
   # Set attribute accessors

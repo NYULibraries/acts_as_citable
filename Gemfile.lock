@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    acts_as_citable (0.1.0)
+    acts_as_citable (1.0.0)
       citero (~> 1.0)
       rails (~> 3.2.12)
 
@@ -137,7 +137,7 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.36)
+    tzinfo (0.3.37)
 
 PLATFORMS
   java
