@@ -1,0 +1,3 @@
+class InheritedRecord < Record
+  
+end
