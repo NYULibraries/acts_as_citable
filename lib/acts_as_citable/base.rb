@@ -19,8 +19,8 @@ module ActsAsCitable
     format_string = "#{self.format_field}"
     data_string = "#{self.data_field}"
         
-    define_method(:_format_field,  Proc.new {format_string} )
-    define_method(:_data_field, Proc.new {data_string} )
+    define_method(:format_field,  Proc.new {format_string} )
+    define_method(:data_field, Proc.new {data_string} )
     # Include the instance methods found below
     include InstanceMethods
   end
@@ -71,12 +71,12 @@ module ActsAsCitable
     private :directionize
     
     def _data
-      self.send(_data_field.to_sym)
+      self.send(data_field.to_sym)
     end
     private :_data
     
     def _format
-      self.send(_format_field.to_sym)
+      self.send(format_field.to_sym)
     end
     private :_format
     
