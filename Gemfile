@@ -15,3 +15,5 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+
+gem 'citero-jruby', :git => "git@github.com:NYULibraries/citero-jruby.git", :branch => "devel"
