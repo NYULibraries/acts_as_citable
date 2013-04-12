@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ActsAsCitable::VERSION
   s.authors     = ["hab278"]
   s.email       = ["hab278@nyu.edu"]
+  s.date        = "2013-04-12"
   s.summary     = "Acts As gem for allowing models to be used as citable objects."
   s.description = "Uses Citero to translate a model from one format to another."
 
@@ -16,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.12"
-  s.add_dependency "citero", "~> 1.0"
+  s.add_dependency "citero-jruby", "~> 1"
 
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
   s.add_development_dependency "nokogiri"
@@ -25,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "simplecov-rcov"
   s.add_development_dependency "test-unit"
   s.add_development_dependency 'coveralls'
+  s.add_development_dependency 'ruby-debug'
 end

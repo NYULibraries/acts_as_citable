@@ -13,6 +13,7 @@ test/dummy/log/
 test/version_tmp
 tmp
 coverage/
+*.lock
 
 # YARD artifacts
 .yardoc
