@@ -1,16 +1,26 @@
-require 'citero'
+require 'acts_as_citable/mime_types'
+require 'acts_as_citable/renderers'
+require 'citero-jruby'
 module ActsAsCitable
+  attr_accessor :format_field, :data_field
+  # Set attribute accessors
   
   # Hooks into an object to define its 'format' and 'data' fields. These are used to
   # translate into other forms of metadata.
   def acts_as_citable &block
-    # Set class attribute accessors, default to format and data
-    cattr_accessor(:format_field) {'format'}
-    cattr_accessor(:data_field) {'data'}
     # Allow for configurations
+    self.format_field = 'format'
+    self.data_field = 'data'
     if block
       yield self
     end
+    
+    # Use procs to define methods that give the data_field and format_field for inherited models.
+    format_string = "#{self.format_field}"
+    data_string = "#{self.data_field}"
+        
+    define_method(:format_field,  Proc.new {format_string} )
+    define_method(:data_field, Proc.new {data_string} )
     # Include the instance methods found below
     include InstanceMethods
   end
@@ -26,7 +36,8 @@ module ActsAsCitable
         #Defines the method and caches it to the class
         self.class.send(:define_method, meth) do
           # Uses data_field and format_field to translate the metadata.
-          Citero.map(self[self.data_field]).send("from_#{self[self.format_field]}").send(meth)
+          # debugger
+          Citero.map(_data).send("from_#{_format}").send(meth)
         end
         # calls the method
         send meth, *args, &block
@@ -58,6 +69,16 @@ module ActsAsCitable
       meth.to_s.split(delimiter, 2).first
     end
     private :directionize
+    
+    def _data
+      self.send(data_field.to_sym)
+    end
+    private :_data
+    
+    def _format
+      self.send(format_field.to_sym)
+    end
+    private :_format
     
   end
   
