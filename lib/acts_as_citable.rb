@@ -1,2 +1,2 @@
 require 'require_all'
-require_all 'lib'
+require_rel 'acts_as_citable'
