@@ -16,7 +16,7 @@ ActionController::Renderers.add :ris do |ris, options|
   filename = (ris.respond_to?(:to_param) and ris.class.respond_to?(:acts_as_citable)) ? ris.to_param : "export"
   ris = ris.respond_to?(:to_ris) ? ris.to_ris() : ris  
   ris = "#{options[:callback]}(#{ris})" unless options[:callback].blank?
-  self.content_type ||= Mime::RIS
+  self.content_type ||= Mime::Type.lookup(:ris)
   self.send_data ris, filename: "#{filename}.ris"
 end
 
@@ -26,7 +26,7 @@ ActionController::Renderers.add :bibtex do |bibtex, options|
   filename = (bibtex.respond_to?(:to_param) and bibtex.class.respond_to?(:acts_as_citable)) ? bibtex.to_param : "export"
   bibtex = bibtex.respond_to?(:to_bibtex) ? bibtex.to_bibtex() : bibtex  
   bibtex = "#{options[:callback]}(#{bibtex})" unless options[:callback].blank?
-  self.content_type ||= Mime::Bibtex
+  self.content_type ||= Mime::Type.lookup(:bibtex)
   self.send_data bibtex, filename: "#{filename}.bib"
 end
 

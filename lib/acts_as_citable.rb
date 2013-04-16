@@ -1,1 +1,2 @@
-require 'acts_as_citable/base'
+require 'require_all'
+require_all 'lib'
