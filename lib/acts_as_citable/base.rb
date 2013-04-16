@@ -1,5 +1,3 @@
-require 'acts_as_citable/mime_types'
-require 'acts_as_citable/renderers'
 require 'citero-jruby'
 module ActsAsCitable
   attr_accessor :format_field, :data_field
