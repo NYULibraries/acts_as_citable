@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ActsAsCitable::VERSION
   s.authors     = ["hab278"]
   s.email       = ["hab278@nyu.edu"]
-  s.date        = "2013-04-12"
+  s.date        = "2013-04-23"
   s.summary     = "Acts As gem for allowing models to be used as citable objects."
   s.description = "Uses Citero to translate a model from one format to another."
   s.homepage    = "https://github.com/NYULibraries/acts_as_citable"
