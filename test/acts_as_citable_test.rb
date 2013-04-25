@@ -25,6 +25,7 @@ class RecordTest < ActiveSupport::TestCase
     assert rec.respond_to?(:to_openurl)
     assert rec.respond_to?(:to_csf)
     assert rec.respond_to?(:to_easybib)
+    assert rec.respond_to?(:to_refworks_tagged)
     assert rec.respond_to?(:csf)
     assert rec.destroy
   end
