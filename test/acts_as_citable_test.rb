@@ -32,10 +32,10 @@ class RecordTest < ActiveSupport::TestCase
   
   test "should work with models inherited acts_as_citable models" do
     rec = InheritedRecord.new(:data => "itemType: book", :format => "csf")
-    assert rec.to_ris.eql? "TY  - BOOK\nER  -\n\n"
-    assert rec.to_bibtex.eql? "@book{????\n}"
-    assert rec.to_openurl.eql? "rft.ulr_ver=Z39.88-2004&rft.ctx_ver=Z39.88-2004&rft.rfr_id=info:sid/libraries.nyu.edu:citero&rft_val_fmlt=info:ofi/fmt:kev:mtx:book&rft.genre=book"
-    assert rec.to_easybib.eql? "{\"source\":\"book\",\"book\":{\"title\":null},\"pubtype\":{\"main\":\"pubnonperiodical\"},\"pubnonperiodical\":{},\"contributors\":[{}]}"
+    assert_equal "TY  - BOOK\nER  -\n\n", rec.to_ris
+    assert_equal "@book{????\n}", rec.to_bibtex
+    assert_equal "rft.ulr_ver=Z39.88-2004&rft.ctx_ver=Z39.88-2004&rft.rfr_id=info:sid/libraries.nyu.edu:citero&rft_val_fmlt=info:ofi/fmt:kev:mtx:book&rft.genre=book", rec.to_openurl
+    assert_equal "{\"source\":\"book\",\"book\":{\"title\":null},\"pubtype\":{\"main\":\"pubnonperiodical\"},\"pubnonperiodical\":{},\"contributors\":[]}", rec.to_easybib
     assert rec.destroy
   end
   
@@ -58,10 +58,10 @@ class RecordTest < ActiveSupport::TestCase
   
   test "should be available to convert to" do
     rec = Record.new(:data => "itemType: book", :format => "csf")
-    assert rec.to_ris.eql? "TY  - BOOK\nER  -\n\n"
-    assert rec.to_bibtex.eql? "@book{????\n}"
-    assert rec.to_openurl.eql? "rft.ulr_ver=Z39.88-2004&rft.ctx_ver=Z39.88-2004&rft.rfr_id=info:sid/libraries.nyu.edu:citero&rft_val_fmlt=info:ofi/fmt:kev:mtx:book&rft.genre=book"
-    assert rec.to_easybib.eql? "{\"source\":\"book\",\"book\":{\"title\":null},\"pubtype\":{\"main\":\"pubnonperiodical\"},\"pubnonperiodical\":{},\"contributors\":[{}]}"
+    assert_equal "TY  - BOOK\nER  -\n\n", rec.to_ris
+    assert_equal "@book{????\n}", rec.to_bibtex
+    assert_equal "rft.ulr_ver=Z39.88-2004&rft.ctx_ver=Z39.88-2004&rft.rfr_id=info:sid/libraries.nyu.edu:citero&rft_val_fmlt=info:ofi/fmt:kev:mtx:book&rft.genre=book", rec.to_openurl
+    assert_equal "{\"source\":\"book\",\"book\":{\"title\":null},\"pubtype\":{\"main\":\"pubnonperiodical\"},\"pubnonperiodical\":{},\"contributors\":[]}", rec.to_easybib
     assert rec.destroy
   end
   
