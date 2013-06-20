@@ -1,5 +1,6 @@
 acts_as_citable
 ===============
+[![Build Status](http://jenkins1.bobst.nyu.edu/buildStatus/icon?job=acts_as_citable)](http://jenkins1.bobst.nyu.edu/job/acts_as_citable/)
 [![Build Status](https://travis-ci.org/NYULibraries/acts_as_citable.png?branch=master)](https://travis-ci.org/NYULibraries/acts_as_citable)
 [![Coverage Status](https://coveralls.io/repos/NYULibraries/acts_as_citable/badge.png?branch=master)](https://coveralls.io/r/NYULibraries/acts_as_citable)
 [![Dependency Status](https://gemnasium.com/NYULibraries/acts_as_citable.png)](https://gemnasium.com/NYULibraries/acts_as_citable)
