@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.12"
-  s.add_dependency "citero-jruby", "~> 1.2.0"
+  s.add_dependency "citero-jruby", "~> 2.1.1"
   s.add_dependency "require_all", "~> 1.2"
 
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
