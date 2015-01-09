@@ -1,8 +1,8 @@
-class CreateRecords < ActiveRecord::Migration
+class CreateRecordChangedFields < ActiveRecord::Migration
   def change
-    create_table :records do |t|
+    create_table :record_changed_fields do |t|
       t.string :data
-      t.string :format
+      t.string :from_format
 
       t.timestamps
     end

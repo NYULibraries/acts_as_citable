@@ -14,7 +14,9 @@ class TestControllerTest < ActionController::TestCase
     assert_response :success
   end
   test "should not respond to arbitrary format" do
-    get :test, :format => "csf", :use_route => :test
-    assert_response :not_acceptable
+    assert_raise ActionController::UnknownFormat do
+      get :test, :format => "bugaboo", :use_route => :test
+      assert_response :not_acceptable
+    end
   end
 end
