@@ -16,5 +16,6 @@ gem "jquery-rails"
 # To use debugger
 # gem 'debugger'
 group :development, :test do
+  gem "citero_renderers"
   gem 'responders'
 end
