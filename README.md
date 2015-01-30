@@ -13,11 +13,12 @@ Config
 ======
 Simply put acts_as_citable in your model. If you have attributes named _data_ and _format_, you are set. If you must configure, do the following.
 
+```
     acts_as_citable do |c|
     	c.format_field = 'your_format_field_name'
     	c.fata_field = 'your_data_field_name'
-	end
-
+	  end
+```
 How to use
 ==========
 Using acts_as_citable is easy! Once you have your model configured, simply use the _to\_format_ method on your model where _format_ is one of the desired formats.
