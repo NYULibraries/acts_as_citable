@@ -65,14 +65,6 @@ class InheritedRecordTest < ActiveSupport::TestCase
     assert rec.destroy
   end
 
-  test "arrays should be able to convert to ris and bibtex" do
-    arr = Array.new
-    arr << InheritedRecord.new(:data => "itemType: book", :format => "csf") << InheritedRecord.create(:data => "itemType: book", :format => "csf")
-    assert arr.to_bibtex
-    assert arr.to_ris
-    arr.each {|rec| assert rec.destroy}
-  end
-
   test "should be able to convert to an export STYLE" do
     rec = InheritedRecord.new(:data => "itemType: book", :format => "csf")
     assert_equal "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\"> (n.d.).</div>\n</div>", rec.to_apa
