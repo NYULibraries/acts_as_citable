@@ -56,13 +56,6 @@ class RecordChangedFieldTest < ActiveSupport::TestCase
     assert rec.destroy
   end
 
-  test "arrays should be able to convert to ris and bibtex" do
-    arr = Array.new
-    arr << RecordChangedField.new(:data => "itemType: book", :from_format => "csf") << RecordChangedField.create(:data => "itemType: book", :from_format => "csf")
-    assert arr.to_bibtex
-    assert arr.to_ris
-    arr.each {|rec| assert rec.destroy}
-  end
 
   test "should be able to convert to an export STYLE" do
     rec = RecordChangedField.new(:data => "itemType: book", :from_format => "csf")
