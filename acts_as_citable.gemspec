@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "require_all", "~> 1.2"
 
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
-  s.add_development_dependency "nokogiri"
+  s.add_development_dependency "nokogiri", "~> 1.6.6.2"
   s.add_development_dependency "brakeman"
   s.add_development_dependency "simplecov"
   s.add_development_dependency "simplecov-rcov"
