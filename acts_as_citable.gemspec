@@ -29,4 +29,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "test-unit"
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'ruby-debug'
+  s.add_development_dependency 'rspec-rails', '~> 3.5'
 end
