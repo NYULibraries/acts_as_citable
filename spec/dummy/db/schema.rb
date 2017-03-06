@@ -11,11 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170301213157) do
+ActiveRecord::Schema.define(version: 20170306203804) do
 
   create_table "citable_records", force: :cascade do |t|
     t.string   "data"
     t.string   "format"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "custom_citable_records", force: :cascade do |t|
+    t.string   "my_data"
+    t.string   "my_format"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
