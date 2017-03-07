@@ -62,6 +62,11 @@ describe ActsAsCitable do
         it { is_expected.to respond_to :to_chicago_author_date }
         it { is_expected.to_not respond_to :to_random }
       end
+      describe "method_missing" do
+        it "should raise an error for undefined method" do
+          expect{ record.to_random }.to raise_error NoMethodError
+        end
+      end
 
       describe "self.format_field" do
         subject{ model_class.format_field }
@@ -132,6 +137,11 @@ describe ActsAsCitable do
         it { is_expected.to respond_to :to_mla }
         it { is_expected.to respond_to :to_chicago_author_date }
         it { is_expected.to_not respond_to :to_random }
+      end
+      describe "method_missing" do
+        it "should raise an error for undefined method" do
+          expect{ record.to_random }.to raise_error NoMethodError
+        end
       end
 
       describe "self.format_field" do
