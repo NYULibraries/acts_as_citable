@@ -48,6 +48,21 @@ describe ActsAsCitable do
         it { is_expected.to eq "<div class=\"csl-bib-body\">\n\n[CSL STYLE ERROR: reference with no printed form.]\n</div>" }
       end
 
+      describe "respond_to?" do
+        subject{ record }
+        it { is_expected.to respond_to :to_ris }
+        it { is_expected.to respond_to :to_bibtex }
+        it { is_expected.to respond_to :to_openurl }
+        it { is_expected.to respond_to :to_easybib }
+        it { is_expected.to respond_to :to_csf }
+        it { is_expected.to respond_to :to_refworks_tagged }
+        it { is_expected.to respond_to :csf }
+        it { is_expected.to respond_to :to_apa }
+        it { is_expected.to respond_to :to_mla }
+        it { is_expected.to respond_to :to_chicago_author_date }
+        it { is_expected.to_not respond_to :to_random }
+      end
+
       describe "self.format_field" do
         subject{ model_class.format_field }
         it { is_expected.to eq "format" }
@@ -102,6 +117,21 @@ describe ActsAsCitable do
       describe "to_chicago_author_date" do
         subject{ record.to_chicago_author_date }
         it { is_expected.to eq "<div class=\"csl-bib-body\">\n\n[CSL STYLE ERROR: reference with no printed form.]\n</div>" }
+      end
+
+      describe "respond_to?" do
+        subject{ record }
+        it { is_expected.to respond_to :to_ris }
+        it { is_expected.to respond_to :to_bibtex }
+        it { is_expected.to respond_to :to_openurl }
+        it { is_expected.to respond_to :to_easybib }
+        it { is_expected.to respond_to :to_csf }
+        it { is_expected.to respond_to :to_refworks_tagged }
+        it { is_expected.to respond_to :csf }
+        it { is_expected.to respond_to :to_apa }
+        it { is_expected.to respond_to :to_mla }
+        it { is_expected.to respond_to :to_chicago_author_date }
+        it { is_expected.to_not respond_to :to_random }
       end
 
       describe "self.format_field" do
