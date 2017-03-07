@@ -36,6 +36,6 @@ end
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec) do |t|
-  t.ruby_opts = "--debug"
+  t.ruby_opts = "--debug --dev"
 end
 task default: :spec
