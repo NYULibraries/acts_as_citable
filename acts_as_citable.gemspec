@@ -24,9 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
   s.add_development_dependency "nokogiri", "~> 1.6.6.2"
   s.add_development_dependency "brakeman"
-  s.add_development_dependency "simplecov"
   s.add_development_dependency "simplecov-rcov"
-  s.add_development_dependency "test-unit"
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'ruby-debug'
   s.add_development_dependency 'rspec-rails', '~> 3.5'
