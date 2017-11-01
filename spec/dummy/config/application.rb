@@ -6,9 +6,7 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
 require "sprockets/railtie"
-# require "rails/test_unit/railtie"
 
-Bundler.require(*Rails.groups)
 require "acts_as_citable"
 
 module Dummy
@@ -29,4 +27,3 @@ module Dummy
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
-

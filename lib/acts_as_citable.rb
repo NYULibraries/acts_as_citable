@@ -1,2 +1,2 @@
-require 'require_all'
-require_rel 'acts_as_citable'
+require 'acts_as_citable/base'
+require 'acts_as_citable/version'
