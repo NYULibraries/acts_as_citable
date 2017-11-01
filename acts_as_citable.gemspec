@@ -18,14 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 4.0.0", "< 5"
-  s.add_dependency "citero-jruby", "~> 2.0"
-  s.add_dependency "require_all", "~> 1.2"
+  s.add_dependency "citero", "~> 1.0.0.alpha"
 
-  s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
-  s.add_development_dependency "nokogiri", "~> 1.6.6.2"
-  s.add_development_dependency "brakeman"
-  s.add_development_dependency "simplecov-rcov"
-  s.add_development_dependency 'coveralls'
-  s.add_development_dependency 'ruby-debug'
+  s.add_development_dependency "sqlite3"
   s.add_development_dependency 'rspec-rails', '~> 3.5'
 end

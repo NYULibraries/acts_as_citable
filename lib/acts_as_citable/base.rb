@@ -1,4 +1,4 @@
-require 'citero-jruby'
+require 'citero'
 module ActsAsCitable
   attr_accessor :format_field, :data_field
   # Set attribute accessors
