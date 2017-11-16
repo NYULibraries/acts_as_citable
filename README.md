@@ -16,7 +16,7 @@ Simply put acts_as_citable in your model. If you have attributes named _data_ an
 ```
     acts_as_citable do |c|
     	c.format_field = 'your_format_field_name'
-    	c.fata_field = 'your_data_field_name'
+    	c.data_field = 'your_data_field_name'
 	  end
 ```
 How to use
