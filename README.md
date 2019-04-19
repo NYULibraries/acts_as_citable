@@ -1,11 +1,9 @@
 acts_as_citable
 ===============
-[![Build Status](http://jenkins1.bobst.nyu.edu/buildStatus/icon?job=acts_as_citable)](http://jenkins1.bobst.nyu.edu/job/acts_as_citable/)
-[![Build Status](https://travis-ci.org/NYULibraries/acts_as_citable.png?branch=master)](https://travis-ci.org/NYULibraries/acts_as_citable)
-[![Coverage Status](https://coveralls.io/repos/NYULibraries/acts_as_citable/badge.png?branch=master)](https://coveralls.io/r/NYULibraries/acts_as_citable)
-[![Dependency Status](https://gemnasium.com/NYULibraries/acts_as_citable.png)](https://gemnasium.com/NYULibraries/acts_as_citable)
-[![Gem Version](https://badge.fury.io/rb/acts_as_citable.png)](http://badge.fury.io/rb/acts_as_citable)
-[![Code Climate](https://codeclimate.com/github/NYULibraries/acts_as_citable.png)](https://codeclimate.com/github/NYULibraries/acts_as_citable)
+[![Build Status](https://travis-ci.org/NYULibraries/acts_as_citable.svg?branch=master)](https://travis-ci.org/NYULibraries/acts_as_citable)
+[![Coverage Status](https://coveralls.io/repos/github/NYULibraries/acts_as_citable/badge.svg?branch=master)](https://coveralls.io/github/NYULibraries/acts_as_citable?branch=master)
+[![Gem Version](https://badge.fury.io/rb/acts_as_citable.svg)](https://badge.fury.io/rb/acts_as_citable)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c0f67ceb0bd39473a368/maintainability)](https://codeclimate.com/github/NYULibraries/acts_as_citable/maintainability)
 
 Acts as gem for Citero. This gem allows an object to utilize Citero's translating properties.
 
