@@ -1,3 +1,3 @@
 module ActsAsCitable
-  VERSION = "5.0.0.beta"
+  VERSION = "5.1.0"
 end
