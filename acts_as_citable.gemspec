@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Uses Citero to translate a model from one format to another."
   s.homepage    = "https://github.com/NYULibraries/acts_as_citable"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 4.0.0", "< 6"
